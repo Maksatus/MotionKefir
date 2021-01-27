@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.65080994, g: 0.5803922, b: 0.7075472, a: 0.7294118}
-  m_FogMode: 3
-  m_FogDensity: 0.01
+  m_Fog: 1
+  m_FogColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0.7294118}
+  m_FogMode: 2
+  m_FogDensity: 0.002
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -26170,7 +26170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &653260036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57142,7 +57142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4927973787200604, guid: 7e6e29f21a00d5f499e21eb93d6fabaa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4541016
+      value: 5.1210155
       objectReference: {fileID: 0}
     - target: {fileID: 4927973787200604, guid: 7e6e29f21a00d5f499e21eb93d6fabaa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -57150,7 +57150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4927973787200604, guid: 7e6e29f21a00d5f499e21eb93d6fabaa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.9969673
+      value: 0.6048041
       objectReference: {fileID: 0}
     - target: {fileID: 4927973787200604, guid: 7e6e29f21a00d5f499e21eb93d6fabaa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -81951,7 +81951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278056, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.95
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278056, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_LocalPosition.z
@@ -81999,11 +81999,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Name
       value: Lifetime B
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Name
+      value: Lifetime A
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
+      value: 4.49
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Value
@@ -82011,7 +82023,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Value
-      value: 1
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Value
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[2].m_Overridden
@@ -82019,6 +82035,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[4].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413465048108278057, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[5].m_Overridden
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1413465048203098838, guid: 41b941c68c53d274ebedaebfb08aaa44, type: 3}
